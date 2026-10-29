@@ -1,4 +1,10 @@
 .git
-__pycache__
-*.pyc
+.gitignore
+__pycache__/
+*.py[cod]
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
